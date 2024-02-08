@@ -1,7 +1,7 @@
 # Screenshot Job
 
 ## run locally with env var
-
+docker build -t nodejs-project .
 `docker run -e BUCKET_NAME=my-bucket IMAGE_NAME URL`
 
 ### TODOS
