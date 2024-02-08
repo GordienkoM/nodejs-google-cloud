@@ -3,6 +3,8 @@
 ## run locally with env var
 docker build -t nodejs-project .
 `docker run -e BUCKET_NAME=my-bucket IMAGE_NAME URL`
+`docker run -e BUCKET_NAME=my-bucket nodejs-project https://www.it-connect.fr/`
+
 
 ### TODOS
 
