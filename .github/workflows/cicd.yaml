@@ -13,7 +13,6 @@ jobs:
     push-image-to-gar:
       runs-on: ubuntu-latest
       # permet d'éviter les race conditions
-      needs: build-and-test
       steps:
         - uses: actions/checkout@v4
         - name: se login au Google Artifact Registry
