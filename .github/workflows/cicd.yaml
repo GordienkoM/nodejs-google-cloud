@@ -4,7 +4,7 @@ name: 4.3 module example 1 CICD pipeline
 # contrairement à Google Cloud Build, vous pouvez le configurer d'ici
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 # les "jobs" sont les étapes de votre pipeline
 jobs:
