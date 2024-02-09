@@ -51,7 +51,7 @@ jobs:
           # j'utilise `gcloud` pour déployer mon job Cloud Run
           - name: "update Cloud Run job"
             run: |
-             gcloud run jobs deploy screenshotter --image=europe-west1-docker.pkg.dev/fluid-furnace-412810/nodejs-google-cloud/nodejs-google-cloud:latest  --args="nodejs-project" --args="https://www.it-connect.fr/" --region=europe-west1
+             gcloud run jobs deploy screenshotter --image=europe-west1-docker.pkg.dev/fluid-furnace-412810/nodejs-google-cloud/nodejs-google-cloud:latest --args="https://www.it-connect.fr/" --region=europe-west1
 
 
 
